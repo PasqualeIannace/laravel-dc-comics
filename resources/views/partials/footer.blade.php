@@ -155,7 +155,7 @@
         </div>
 
         <div class="bgLogo">
-            <img src="dc-logo-bg.png" alt="">
+            <img src="/dc-logo-bg.png" alt="">
         </div>
     </div>
 </div>
@@ -171,27 +171,27 @@
             <h3 class="white">FOLLOW US</h3>
             <div class="socialBtn">
                 <a href="#">
-                    <img src="footer-facebook.png" alt="">
+                    <img src="/footer-facebook.png" alt="">
                 </a>
             </div>
             <div class="socialBtn">
                 <a href="#">
-                    <img src="footer-twitter.png" alt="">
+                    <img src="/footer-twitter.png" alt="">
                 </a>
             </div>
             <div class="socialBtn">
                 <a href="#">
-                    <img src="footer-youtube.png" alt="">
+                    <img src="/footer-youtube.png" alt="">
                 </a>
             </div>
             <div class="socialBtn">
                 <a href="#">
-                    <img src="footer-pinterest.png" alt="">
+                    <img src="/footer-pinterest.png" alt="">
                 </a>
             </div>
             <div class="socialBtn">
                 <a href="#">
-                    <img src="footer-periscope.png" alt="">
+                    <img src="/footer-periscope.png" alt="">
                 </a>
             </div>
         </div>

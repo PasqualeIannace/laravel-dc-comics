@@ -39,7 +39,10 @@ class ComicController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $nav = config("navBar");
+        $fumetto = Comic::find($id);
+
+        return view("comics.show", compact("nav", "fumetto"));
     }
 
     /**
