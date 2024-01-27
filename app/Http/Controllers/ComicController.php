@@ -13,8 +13,9 @@ class ComicController extends Controller
     public function index()
     {
         $nav = config("navBar");
+        $other = config("moreLink");
         $comics = Comic::all();
-        return view('home', compact("comics", "nav"));
+        return view('comics.index', compact("comics", "nav", "other"));
     }
 
     /**

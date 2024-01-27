@@ -37,21 +37,21 @@ header {
     width: 7vh;
 }
 
-.nav {
+.myNav {
     display: flex;
 }
 
-.nav li {
+.myNav li {
     display: inline;
     padding: 1em;
 }
 
-.nav a {
+.myNav a {
     color: #1C1C1C;
     text-decoration: none;
 }
 
-.nav a:hover {
+.myNav a:hover {
     color: #0082f9;
 }
 
@@ -94,7 +94,7 @@ header {
     position: relative;
 }
 
-.card {
+.myCard {
     width: calc(100% / 6);
     height: 10vh;
     color: white;
@@ -107,7 +107,7 @@ header {
     object-position: top;
 }
 
-.card p {
+.myCard p {
     font-size: 0.7em;
 }
 

@@ -6,7 +6,7 @@
     </div>
 
     <nav>
-        <ul class="nav">
+        <ul class="myNav">
             @foreach($nav as $item)
             <li>
                 <a href="{{ $item['link'] }}">
