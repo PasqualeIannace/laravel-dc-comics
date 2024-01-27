@@ -1,5 +1,5 @@
 <div class="containerBg">
-    <div class="desktop container">
+    <div class="desktop myContainer">
         <div class="links">
 
             <div class="link">

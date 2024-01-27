@@ -13,7 +13,9 @@
 
         @foreach ($comics as $product)
         <div class="myCard">
-            <img class="comics" src={{ $product["thumb"] }} alt="">
+            <a href="{{ route('comics.show', $product->id) }}">
+                <img class="comics" src={{ $product["thumb"] }} alt="">
+            </a>
             <p class="upperCase">{{ $product["series"] }}</p>
             <span>{{ $product["price"] }}</span>
         </div>

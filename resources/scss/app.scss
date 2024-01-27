@@ -1,11 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     font-family: sans-serif;
 }
@@ -27,56 +21,55 @@ header {
 
 .logo {
     width: 100%;
-}
 
-.logo a {
-    display: inline-block;
-}
+    a {
+        display: inline-block;
+    }
 
-.logo img {
-    width: 7vh;
+    img {
+        width: 7vh;
+    }
 }
 
 .myNav {
     display: flex;
-}
 
-.myNav li {
-    display: inline;
-    padding: 1em;
-}
+    li {
+        display: inline;
+        padding: 1em;
+    }
 
-.myNav a {
-    color: #1C1C1C;
-    text-decoration: none;
-}
+    a {
+        color: #1C1C1C;
+        text-decoration: none;
+    }
 
-.myNav a:hover {
-    color: #0082f9;
+    :hover {
+        color: #0082f9;
+    }
 }
-
 
 .borderBottom {
     display: flex;
     height: 7.2em;
     align-items: center;
-}
 
-.borderBottom:hover {
-    border-bottom: 4px solid #0082f9;
+    &:hover {
+        border-bottom: 4px solid #0082f9;
+    }
 }
 
 /* SECTION 1 */
 /* jumbo */
 .jumbo {
     height: 18em;
-}
 
-.jumbo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
 }
 
 /*  */
@@ -98,6 +91,10 @@ header {
     width: calc(100% / 6);
     height: 10vh;
     color: white;
+
+    p {
+        font-size: 0.7em;
+    }
 }
 
 .comics {
@@ -105,10 +102,6 @@ header {
     height: 8.5em;
     object-fit: cover;
     object-position: top;
-}
-
-.myCard p {
-    font-size: 0.7em;
 }
 
 .info {
@@ -158,14 +151,14 @@ span {
 
 .product {
     width: calc(100% / 5);
-}
 
-.product a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .other {
@@ -177,24 +170,11 @@ span {
     background-image: url(/footer-bg.jpg);
 }
 
-.container {
+.myContainer {
     padding: 0 4em;
     display: flex;
     justify-content: space-between;
     height: 25em;
-}
-
-.link li a {
-    color: gray;
-    text-decoration: none;
-}
-
-.link li a:hover {
-    color: white;
-}
-
-.link li {
-    list-style: none;
 }
 
 .links {
@@ -204,10 +184,23 @@ span {
 .link {
     padding: 3em 0;
     margin-right: 1.5em;
-}
 
-.link h3 {
-    padding-bottom: 1em;
+    h3 {
+        padding-bottom: 1em;
+    }
+
+    li {
+        list-style: none;
+
+        a {
+            color: gray;
+            text-decoration: none;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
 }
 
 .bgLogo img {
@@ -231,11 +224,11 @@ span {
 .socials {
     display: flex;
     align-items: center;
-}
 
-.socials h3 {
-    color: #0082F9;
-    padding: 0 1em;
+    h3 {
+        color: #0082F9;
+        padding: 0 1em;
+    }
 }
 
 .socialBtn {
