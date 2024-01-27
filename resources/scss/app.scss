@@ -1,13 +1,271 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    font-family: sans-serif;
-    background: #222;
-    color: white;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.desktop {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* NAV BAR */
+header {
+    padding: 0 4em;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo img {
+    width: 7vh;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    display: inline;
+    padding: 1em;
+}
+
+.nav a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #0082f9;
+}
+
+
+.borderBottom {
+    display: flex;
+    height: 7.2em;
+    align-items: center;
+}
+
+.borderBottom:hover {
+    border-bottom: 4px solid #0082f9;
+}
+
+/* SECTION 1 */
+/* jumbo */
+.jumbo {
+    height: 18em;
+}
+
+.jumbo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/*  */
+
+.productsBg {
+    background-color: #1C1C1C;
+    height: auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3em 4em 0 4em;
+    height: 35em;
+    position: relative;
+}
+
+.card {
+    width: calc(100% / 6);
+    height: 10vh;
+    color: white;
+}
+
+.comics {
+    width: 8.5em;
+    height: 8.5em;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card p {
+    font-size: 0.7em;
+}
+
+.info {
+    position: absolute;
+    background-color: #0082F9;
+    top: -23px;
+    height: 2em;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.more {
+    display: flex;
+    width: 100vw;
+    height: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+.moreBtn {
+    background-color: #0082F9;
+    height: 2em;
+    width: 10em;
+    padding: 0.5em 1.9em;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+span {
+    font-size: 0.7em;
+}
+
+/* SECTION 2 */
+.sectionBg {
+    background-color: #0082F9;
+}
+
+.section {
+    color: white;
+    background-color: #0082F9;
+    height: 15vh;
+    padding: 0 4em;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: calc(100% / 5);
+}
+
+.product a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.other {
+    height: 3.5em;
+}
+
+/* FOOTER */
+.containerBg {
+    background-image: url(/footer-bg.jpg);
+}
+
+.container {
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+    height: 25em;
+}
+
+.link li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.link li a:hover {
+    color: white;
+}
+
+.link li {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    padding: 3em 0;
+    margin-right: 1.5em;
+}
+
+.link h3 {
+    padding-bottom: 1em;
+}
+
+.bgLogo img {
+    object-fit: cover;
+    height: 25em;
+    width: 35em;
+}
+
+/* section 2 */
+.secondBg {
+    background: #303030;
+}
+
+.secondContainer {
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.socials h3 {
+    color: #0082F9;
+    padding: 0 1em;
+}
+
+.socialBtn {
+    padding: 1.5em 0.5em;
+}
+
+.signBtn {
+    color: white;
+    border: 2px solid #0082F9;
+    background: transparent;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* CLASSI ATOMICHE */
+
+.white {
+    color: white;
+}
+
+
+.px1 {
+    padding: 0 1em;
+}
+
+.py1 {
+    padding: 1em 0;
+}
+
+.upperCase {
+    text-transform: uppercase;
 }
