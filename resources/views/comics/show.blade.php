@@ -1,10 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<img class="showThumb" src="{{ $fumetto->thumb }}" alt="">
 
 <div class="container">
-    <div class="row">
+    <img class="showThumb" src="{{ $fumetto->thumb }}" alt="">
+</div>
+
+
+<div class="container">
+    <div class="row py1">
         <div class="col-9">
             <h3>{{ $fumetto->title }}</h3>
             <p>U.S Price: {{ $fumetto->price }}</p>
